@@ -1,4 +1,4 @@
-<a name="DPI"></a>
+<a name="zkRizz"></a>
 
 <!-- PROJECT LOGO -->
 <br />
@@ -30,8 +30,6 @@
     <li><a href="#built-with">Built With</a></li>
     <li><a href="#installation">Installation</a></li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#road-map">Road Map</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a>
     </li>
   </ol>
 
@@ -83,44 +81,17 @@ For both app and backend environment :
 
 ![Architecture Diagram][architecture]
 
-DPI UX is implemented as a web app which can be used to send and receive payments across chains.As a payments interface it is non-custodial and the user is in full control of their assets.Transfers are the key feature of the app and it is powered by Connext to enable cross chain transfers.Push protocol is used to enable reliable transaction notification.Contracts are deployed on every EVM based chains and the user can deploy smart wallets on any of the supported chains.
+Enter the realm of zkRizz, a cutting-edge web3 dating platform revolutionizing connections. Seamlessly log in with Ethereum addresses, empowering users to define their traits and preferences. The heart of zkRizz lies in its innovative use of Zero-Knowledge Proofs, crafting a matching algorithm that pairs individuals based on genuine likes and dislikes. Transition seamlessly into anonymous messaging, fostering authentic connections beyond the constraints of conventional platforms. Explore a new era of online dating with zkRizz – where user autonomy and meaningful connections take center stage.
 The user can :
 
-1. Create a smart wallet at deterministic address.
-2. Fund the smart wallet with any supported token.
-3. Send and receive payments across chains via ENS or public addresses.
-4. Use QR code to send and receive payments.
+1. Log into the application with you wallet.
+2. Choose your own traits.
+3. Choose the traits you wanna in others.
+4. Let the matching algorithm match with your ideal partner.
+5. Rizz your way through messages
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
-<!-- ROADMAP -->
-
-# Road Map
-
--   [x] Designed and implemented smart wallet and factory contracts
--   [x] Added ECDSA verification for smart wallet
--   [x] Designed and implemented DPI UX
--   [x] Adder support for ERC20 tokens transfer and cross chain transfers
--   [x] Added support for qr scanning
-
-Features proposed for future :
-
--   [ ] Add support for generating populated data for all kinds of transactions on UI
--   [ ] Add EDDSA signature verification in smart wallets
--   [ ] Add compatibility support for EIP4337
-
-<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
-
-<!-- ACKNOWLEDGMENTS -->
-
-# Acknowledgments
-
-This repo is a part of the project DPI (Decentralized Payment Interface) which is a part of the hackathon hosted by ETHIndia and Devfolio.
-
-<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 [next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [next-url]: https://nextjs.org/
